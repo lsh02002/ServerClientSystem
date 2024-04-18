@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class AdminUser {
+public class AdminUser extends User{
+
+    public AdminUser(String username, String role) {
+        super(username, role);
+    }
 }
